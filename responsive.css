@@ -1,0 +1,297 @@
+/* NAVBAR RESPONSIVE */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    .nav a{
+        display: none;
+    }
+} 
+/* BANNER RESPONSIVE*/
+@media (max-width: 1024px) {
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 5%;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .left-border {
+        display: none;
+    }
+    .curve-line {
+        display: none;
+    }
+    .banner-image {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .rate-box {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-content h1 {
+        font-size: 28px;
+    }
+    .banner-btn {
+        padding: 10px 24px;
+    }
+    .banner-image img {
+        max-width: 230px;
+    }
+    .curve-line {
+        display: none;
+    }
+}
+
+/* CARD-RESPONSIVE */
+@media (max-width: 1024px) {
+    .slide {
+        animation-duration: 25s;
+    }
+}
+
+@media (max-width: 768px) {
+    .expertise-section h2 {
+        font-size: 28px;
+    }
+    .expert-card {
+        min-width: 240px;
+    }
+}
+
+
+/* GRID RESPONSIVE */
+
+@media (max-width: 768px) {
+    .grid-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .grid{
+        padding: 10px;
+    }
+    .grid h4 {
+        font-size: 24px;
+    }
+    .grid-one, .grid-two {
+        width: 70%;
+    }
+    .grid-one {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .first-one, .second-one, .first, .second, .third {
+        height: 220px;
+    }
+    .second {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec-first, .sec-second {
+        width: 90%;
+        height: 210px;
+    }
+}
+
+/* REAL INDUSTRIES RESPONSIVE */
+
+@media (max-width: 1024px) {
+    .training-wrapper {
+        flex-direction: column;
+    }
+    .training-left {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .training-section h2 {
+        font-size: 26px;
+    }
+    .training-left {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step-card {
+        width: 220px;
+    }
+    .training-right {
+        width: 100%;
+    }
+}
+
+
+
+/*               ACTED AND TRANSFORMED  RESPONSIVE                     */
+
+@media (max-width: 1024px) {
+    .st-card {
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 25px;
+    }
+}
+
+
+/* ACROSS EVERY PROGRAM RESPONSIVE */
+@media (max-width:1024px){
+    .program{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftt-div{
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 20px
+    }
+}
+@media (max-width:480px){
+    .week{
+        max-width: 270px;
+        padding: 10px;
+    }
+}
+
+
+ /* NEW YEAR OFFER RESPONSIVE */
+
+ @media (max-width: 1024px) {
+    .offer-container {
+        padding: 30px;
+    }
+    .offer-left {
+        max-width: 70%;
+    }
+    .offer-left h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .offer-container{
+        flex-direction: column;
+    }
+    .offer-left h2 {
+        font-size: 22px;
+    }
+    .outline-btn {
+        width: 100%;
+    }
+}
+
+
+/* Why Are We Different From Others RESPONSIVE */
+ @media (max-width: 1024px){
+.conver-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ }
+@media (max-width: 480px){
+.culture-img img {
+    width: 250px;
+    height: 200px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.conver{
+    padding: 11px;
+}
+.culture-left{
+    margin-right: 20px;
+}
+}
+
+
+
+/* CUT EDGE ENGINEERS RESPONSIVE */
+ @media (max-width: 1024px) {
+.institutes{
+    flex-direction: column;
+    align-items: center;
+}
+.ins-left, .ins-right{
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ins-left, .ins-right{
+    max-width: 270px;
+    border-radius: 10px;
+    padding: 15px;    
+    }
+}
+
+/* INDUSTRIAL TRAINING RESPONSIVE */
+@media (max-width: 1024px) {
+    .train{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .train-right{
+    padding: 40px;
+    }
+    .train2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 80px ;
+}
+}
+
+@media (max-width: 480px){
+    .train-right{
+    padding: 40px;
+    width: 300px;
+    }
+    .train-left img{
+    border-radius: 140px;
+    height: 300px;
+    width: 200px;
+}
+.train-left{
+    width: 320px;
+}
+.train2-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.train2{
+    padding: 15px 40px ;
+}
+}
+
+/* FAQ RESPONSIVE */
+@media (max-width: 480px){
+    .faq-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* FOOTER RESPONSIVE */
+@media (max-width: 1024px) {
+    .footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
