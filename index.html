@@ -6,319 +6,335 @@
     <title>Clone</title>
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="stylesheet" href="assets/CSS/responsive.css" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
   </head>
   <body>
-    <header class="nav">
+    <header>
       <div class="navbar">
-        <!-- Logo Section -->
+        <!-- Logo -->
         <div class="logo">
-          <h1 style="color: rgb(3, 159, 231);">CUTEDGE</h1>
+          <img src="assets/images/cut-edge logo.png" alt="">
         </div>
 
         <!-- Navigation Links -->
         <div class="nav">
-          <a href="#">About</a>
-          <a href="#">Industrial Training</a>
-          <a href="#">Services</a>
-          <a href="#">Contact Us</a>
+          <a href="#">ABOUT</a>
+          <a href="#">INDUSTRIAL TRAINING</a>
+          <a href="#">SERVICES</a>
+          <a href="#">CONTACT US</a>
           <div class="hamburger">
             <i class="fa-solid fa-bars"></i>
           </div>
         </div>
       </div>
     </header>
-
+<!--------------------------- MAIN --------------------->
     <main>
       <section>
         <div class="banner-section">
+
+          <!-- left div -->
+          <!-- <div class="left-border">
+            <img src="assets/images/banner-side-image.png" alt="banner-side-image">
+          </div> -->
+
+          <!-- middle div -->
           <div class="banner-content">
-          <div class="left-border"></div>
-          <h1>
-            6-Month Industrial Training in Gurgaon with
-            <span>Projects & Placement Support</span>
-          </h1>
-          <div class="curve-line"></div>
-          <p>
-            Learn by working on real projects with industry mentors. Gain
-            internship experience and job-ready skills for today’s IT roles.
-          </p>
-          <button class="banner-btn">Enroll Now</button>
-          <div class="rate-box">
-            <div class="rate-text">
-              <strong>3000+ Students Trained</strong>
+            <h1> 6-Month Industrial Training in Gurgaon with
+              <span>Projects & Placement Support</span>
+            </h1>
+            <div class="curve-line">
+              <img src="assets/images/curve-line.png" alt="">
             </div>
-            <div class="rating">
-              ⭐⭐⭐⭐⭐<span>4.5/5 (7584 ratings)</span>
+            <p>
+              Learn by working on real projects with industry mentors. Gain
+              internship experience and job-ready skills for today’s IT roles.
+            </p>
+            <button class="banner-btn">Enroll Now</button>
+            <div class="rate-box">
+              <div class="rate-text">
+                <strong>3000+ Students Trained</strong>
+              </div>
+              <hr>
+              <div class="rating">
+                ⭐⭐⭐⭐⭐<span> 4.5/5 (758 ratings)</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- RIGHT IMAGE -->
-        <div class="banner-image">
-          <img src="computers.jpg" alt=" Banner" />
-        </div>
-        </div>
-        
+          <!-- right image -->
+          <div class="banner-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j3n-uxPx2b8?si=U-mh2FPTPTkdxy01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <img src="assets/images/video-image.webp" alt=" Banner" /> -->
+          </div>
+        </div>  
       </section>
 
-      <!----------------------- CARDS -------------------------->
+      <!----------------------- SLIDER CARDS -------------------------->
       <section>
         <div class="expertise-section">
-
           <div class="main-heading"><h2>Our Expertise</h2></div>
-          
-
-        <p class="section-p">
-          We build real systems inside our company and prepare engineers to work
-          confidently in real-world production environments.
-        </p>
-
-        <div class="slider-leftright">
-          <div class="slider-track">
+          <p>
+            We build real systems inside our company and prepare engineers to work
+            confidently in real-world production environments.
+          </p>
+              <!---- card slider div ---->
+          <div class="slider-leftright">
+            <div class="slider-track">
             <!-- CARD 1 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
+
             <!-- CARD 2 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
+
             <!-- CARD 3 -->
-           <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
+
             <!-- CARD 4 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
 
             <!-- CARD 5 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
 
             <!-- CARD 6 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
 
             <!-- CARD 7 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
 
             <!-- CARD 8 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+             <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
 
             <!-- CARD 9 -->
-           <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
-            </div>
 
             <!-- CARD 10 -->
-            <div class="expert-card">
-              <h3>Full Stack Web Engineers</h3>
-              <p class="card-slide">
-                Building production-ready web applications with real frontend,
-                backend, APIs, and databases used in live projects.
-              </p>
-              <div class="card-img">
-                <img src="cat.webp" alt="" />
-              </div>
-              <div class="price-div">
-                <div class="price">
-                  <h5 style="color: red; font-weight: 400">
-                    <del>₹40,000</del>
-                  </h5>
-                  <h3 style="color: green">₹27,000
-                    <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(+GST)</span>
-                  </h3>
+              <div class="expert-card">
+                <h3>Full Stack Web Engineers</h3>
+                <p class="card-slide">
+                  Building production-ready web applications with real frontend,
+                  backend, APIs, and databases used in live projects.
+                </p>
+                <div class="card-img">
+                  <img src="assets/images/web-training.png" alt="" />
                 </div>
-                <button class="enroll-btn">EnrollNow</button>
+                <hr>
+                <div class="price-div">
+                  <div class="price">
+                    <h5>
+                      <del class="red-price">₹40,000</del>
+                    </h5>
+                    <h3 style="color: green">₹27,000
+                      <span style="color: aquamarine; font-size: x-small; font-weight: 400;">(50% OFF)</span>
+                    </h3>
+                  </div>
+                  <button class="enroll-btn">EnrollNow</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
       </section>
 
       <!------------------------------- GRID ------------------------------>
       <section>
         <div class="grid">
-          <div class="main-heading"><h2>Our Expertise</h2></div>
+          <div class="main-heading"><h2>Train Inside a Real, Working IT Environment</h2></div>
           <p>
             Experience a professional Gurgaon-based training center where
-            students work on real projects, collaborate in <br />
+            students work on real projects, collaborate in
             teams, and learn in an environment that mirrors real IT companies.
           </p>
           <div class="grid-main">
@@ -333,7 +349,7 @@
               <div class="first"></div>
               <div class="second">
                 <div class="sec-first mar"></div>
-                <div class="sec-second"></div>
+                <div class="sec-second mar1"></div>
               </div>
               <div class="third"></div>
             </div>
@@ -343,91 +359,157 @@
 
       <!------------------------------- REAL INDUSTRIES -------------------------->
       <section>
-        <div class="main-heading"><h2>>How We Train You for the Real Industry</h2></div>
         <div class="training-section">
-         
-        <p class="section-training">
-          This is not classroom teaching. This is a structured, company-style
-          learning journey designed to convert beginners into confident,
-          job-ready engineers.
-        </p>
+         <div class="main-heading"><h2>How We Train You for the Real Industry</h2></div>
+          <p class="section-training">
+            This is not classroom teaching. This is a structured, company-style
+            learning journey designed to convert beginners into confident,
+            job-ready engineers.
+          </p>
 
-        <div class="training-teaching">
+          <div class="training-teaching">
           <!-- left div -->
-          <div class="training-left">
-            <div class="left-col">
-              <div class="step-card">03<br /><span>Build</span></div>
-              <div class="step-card">03<br /><span>Build</span></div>
-              <div class="step-card">03<br /><span>Build</span></div>
+            <div class="training-left">
+              <div class="left-col">
+                <div class="step-card">01<br /><span>Foundations</span></div>
+                <div class="step-card">03<br /><span>Build</span></div>
+                <div class="step-card">05<br /><span>Mocks</span></div>
+              </div>
+ 
+              <div class="left-col">
+                <div class="step-card">02<br /><span>Learn</span></div>
+                <div class="step-card">04<br /><span>Projects</span></div>
+                <div class="step-card">06<br /><span>Job Ready</span></div>
+              </div>
             </div>
-
-            <div class="left-col">
-              <div class="step-card">03<br /><span>Build</span></div>
-              <div class="step-card">03<br /><span>Build</span></div>
-              <div class="step-card">03<br /><span>Build</span></div>
-            </div>
-          </div>
 
           <!-- right div -->
-          <div class="training-right">
-            <div class="icon-box">📘</div>
-            <h3>Foundations</h3>
-            <p>
-              We fix fundamentals first. Logic, concepts, and clarity — so
-              students stop memorizing and start understanding.
-            </p>
-            <div class="tag-row">
-              <span>Core Concepts</span>
-              <span>Logic Building</span>
-              <span>Confidence</span>
-            </div>
+            <div class="training-right">
+
+            <!-- one -->
+              <div class="right-one">
+                <div class="icon-box">📘</div>
+                <h3>Foundations</h3>
+                <p>
+                  We fix fundamentals first. Logic, concepts, and clarity — so
+                  students stop memorizing and start understanding.
+                </p>
+                <div class="tag-row">
+                  <span>Core Concepts</span>
+                  <span>Logic Building</span>
+                  <span>Confidence</span>
+                </div>
+              </div>
+
+            <!-- two -->
+            <!-- <div class="right-two">
+              <div class="icon-box">📘</div>
+              <h3>Learn</h3>
+              <p>
+                Structured learning with mentors explaining why things
+                work — not just how to use them.
+              </p>
+              <div class="tag-row">
+                <span>Guided Learning</span>
+                <span>Industry Examples</span>
+                <span>Mentorship</span>
+              </div>
+            </div> -->
+
+            <!-- three -->
+             <!-- <div class="right-three">
+              <div class="icon-box">📘</div>
+              <h3>Build</h3>
+              <p>
+                You start coding early. Every concept is applied 
+                immediately through hands-on development.
+              </p>
+              <div class="tag-row">
+                <span>Hands-On</span>
+                <span>Daily coding</span>
+                <span>Dev workflow</span>
+              </div>
+            </div> -->
+
+            <!-- four -->
+            <!-- <div class="right-four">
+              <div class="icon-box">📘</div>
+              <h3>Projects</h3>
+              <p>
+                Real world projects designed like internal company tasks
+                -not copied or dummy work.
+              </p>
+              <div class="tag-row">
+                <span>live projects</span>
+                <span>portfolio</span>
+                <span>problem solving</span>
+              </div>
+            </div> -->
+
+            <!-- five -->
+            <!-- <div class="right-five">
+              <div class="icon-box">📘</div>
+              <h3>Mocks</h3>
+              <p>
+                Mock interviews and performance reviews to expose weak
+                areas and fix them before real interviews.
+              </p>
+              <div class="tag-row">
+                <span>mock interviews</span>
+                <span>feedbacks</span>
+                <span>confidence</span>
+              </div>
+            </div> -->
+
+            <!-- six -->
+            <!-- <div class="right-six">
+              <div class="icon-box">📘</div>
+              <h3>Job Ready</h3>
+              <p>
+                Resume, interview preperations, and placement guidence-
+                until you're ready to enter the industry.
+              </p>
+              <div class="tag-row">
+                <span>resume</span>
+                <span>interview</span>
+                <span>placement</span>
+              </div>
+            </div> -->
           </div>
         </div>
-        </div>
-      </section>
 
-      <!------------------------ ACTED AND TRANSFORMED ----------------------------->
-      <section>
-        <div class="transform-section">
-          <h2>Those Who <span>Acted</span> And <span>Transformed</span></h2>
-        <p class="section-formed">
-          Real transitions. Real careers. Engineers who trusted the process and
-          changed their trajectory with Cut Edge Technology.
-        </p>
-
-        <!-- button -->
-        <div class="center-btn">
-          <button>Enroll Now</button>
-        </div>
-
-        <!-- 4 cards -->
+          <!-- 4 cards -->
         <div class="st-card">
+
+              <!-- one -->
           <div class="student-card">
             <div class="icon"><i class="fa-solid fa-heart blue-heart"></i></div>
             <h3>3,000+</h3>
             <p>Students</p>
           </div>
 
+                 <!-- two -->
           <div class="student-card">
             <div class="icon"><i class="fa-solid fa-heart blue-heart"></i></div>
-            <h3>3,000+</h3>
-            <p>Students</p>
+            <h3>100+</h3>
+            <p>Partner Companies</p>
           </div>
 
+                <!-- three -->
           <div class="student-card">
             <div class="icon"><i class="fa-solid fa-heart blue-heart"></i></div>
-            <h3>3,000+</h3>
-            <p>Students</p>
+            <h3>100%</h3>
+            <p>Job Assistance</p>
           </div>
 
+                   <!-- four -->
           <div class="student-card">
             <div class="icon"><i class="fa-solid fa-heart blue-heart"></i></div>
-            <h3>3,000+</h3>
-            <p>Students</p>
+            <h3>7LPA</h3>
+            <p>Average Package</p>
           </div>
         </div>
         </div>
-        
       </section>
 
       <!-- ---------------------ACROSS EVERY PROGRAM ------------------------->
@@ -435,22 +517,22 @@
         <div class="program">
           <div class="leftt-div">
             <button class="include1">Included for All Students</button>
-            <h2>
-              Weekly AI Sessions <br />
-              <span style="color: rgb(115, 182, 245)">
-                Across Every Program
-              </span>
-            </h2>
-            <p>
+            <div class="main-heading1">
+              <h2>
+              Weekly AI Sessions <br>
+              <span>Across Every Program</span>
+              </h2>
+            </div>
+            <p class="mainp">
               At Cut Edge Technology, AI isn't a separate course. Every student
-              — regardless of their main program — <br> access to free
-              weekly AI sessions focused on real, practical usage.
+              — regardless of their <br> main  program —  access to
+              <strong> free weekly AI sessions </strong> focused on real, practical usage.
             </p>
             <p class="AI">AI-assisted coding & debugging</p>
-            <p class="AI">AI-assisted coding & debugging</p>
-            <p class="AI">AI-assisted coding & debugging</p>
-            <p class="AI">AI-assisted coding & debugging</p>
-            <button class="include2">Enroll Now</button>
+            <p class="AI">Automation ideas using AI + APIs</p>
+            <p class="AI">Productivity workflows used in real teams</p>
+            <p class="AI">Responsible AI usage in live projects</p>
+            <button class="banner-btn include2">Enroll Now</button>
           </div>
           <div class="right-div">
             <div class="week">
@@ -458,17 +540,18 @@
               <span>Using AI as a development & logic partner</span>
             </div>
             <div class="week">
-              <span>Week 1</span>
-              <span>Using AI as a development & logic partner</span>
+              <span>Week 2</span>
+              <span>Debugging, optimization & refactoring with AI</span>
             </div>
             <div class="week">
-              <span>Week 1</span>
-              <span>Using AI as a development & logic partner</span>
+              <span>Week 3</span>
+              <span>Automation workflows using AI tools & APIs</span>
             </div>
             <div class="week">
-              <span>Week 1</span>
-              <span>Using AI as a development & logic partner</span>
+              <span>Every Week</span>
+              <span>Hands-on AI exposure aligned with live projects</span>
             </div>
+            
           </div>
         </div>
       </section>
@@ -481,15 +564,15 @@
           <div class="offer-left">
             <button class="badge-btn">🎉 New Year Offer</button>
             <h2>Kick-Start Your Tech Career in 
-              <span>2025 </span><br/>
-              <span>Get up to 30% OFF</span>
+              <span>2026 </span>
+              <span>Get up to 50% OFF</span>
             </h2>
             <p>
               Join our Job-Ready Industrial Training program with real projects,
               mentorship, and placement support. Offer valid for limited time
               only.
             </p>
-            <button class="bottom-btn">Enroll Now & Save Big</button>
+            <button class="banner-btn btn">Enroll Now & Save Big</button>
           </div>
 
           <!-- RIGHT CONTENT -->
@@ -524,75 +607,77 @@
                 <div class="culture-left">
                   <!-- one -->
                   <div class="exp">
-                    <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                    <div class="blue-ico one">
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">Experienced Developers</div>
                   </div>
 
                   <!-- two -->
                   <div class="exp">
-                    <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                    <div class="blue-ico two">
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">Work On Live Projects</div>
                   </div>
 
                   <!-- three -->
                   <div class="exp">
-                    <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                    <div class="blue-ico one">
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">Flexible Schedules</div>
                   </div>
 
                   <!-- four -->
                   <div class="exp">
-                    <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                    <div class="blue-ico three">
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">Reasonable Costs</div>
                   </div>
                 </div>
+
                 <!-- culture right -->
                 <div class="culture-right">
+
                   <!-- one -->
                   <div class="exp">
-                    <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                    <div class="blue-ico three">
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">Culture of Work</div>
                   </div>
 
                   <!-- two -->
                   <div class="exp">
                     <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">Conversation Session</div>
                   </div>
 
                   <!-- three -->
                   <div class="exp">
                     <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">Practical Projects</div>
                   </div>
 
                   <!-- four -->
                   <div class="exp">
-                    <div class="blue-ico">
-                      <i class="fa-solid fa-bars"></i>
+                    <div class="blue-ico two">
+                      <i class="fa-solid fa-scale-balanced" style="color:white;"></i>
                     </div>
-                    <div>Experienced Developers</div>
+                    <div class="expp">100% Job Guarantee</div>
                   </div>
                 </div>
               </div>
             </div>
                <!-- RIGHT IMAGE -->
               <div class="culture-img">
-                <img src="computers.jpg" alt="" />
+                <img src="assets/images/career-intelligence.png" alt="" />
               </div>
             </div>
           </div>
@@ -611,20 +696,24 @@
             <div class="ins-left">
               <h4>Cut edge technology</h4>
               <pre>✔  Company-designed, role-focused curriculum</pre>
-              <pre>✔  Company-designed, role-focused curriculum</pre>
-              <pre>✔  Company-designed, role-focused curriculum</pre>
-              <pre>✔  Company-designed, role-focused curriculum</pre>
-              <pre>✔  Company-designed, role-focused curriculum</pre>
-              <pre>✔  Company-designed, role-focused curriculum</pre>
+              <pre>✔  Strong foundations before scaling complexity</pre>
+              <pre>✔  Live internal & client-style projects</pre>
+              <pre>✔  Modern tools used in real IT teams</pre>
+              <pre>✔  Multiple production-grade project builds</pre>
+              <pre>✔  Structured internship inside the company</pre>
+              <pre>✔  Mentors actively working in production</pre>
+              <pre>✔  Resume, interview & placement preparation</pre>
             </div>
             <div class="ins-right">
               <h4>other institutes</h4>
               <pre>❌  Theory-heavy or outdated syllabus</pre>
-              <pre>❌  Theory-heavy or outdated syllabus</pre>
-              <pre>❌  Theory-heavy or outdated syllabus</pre>
-              <pre>❌  Theory-heavy or outdated syllabus</pre>
-              <pre>❌  Theory-heavy or outdated syllabus</pre>
-              <pre>❌  Theory-heavy or outdated syllabus</pre>
+              <pre>❌  Weak or rushed fundamentals</pre>
+              <pre>❌  Dummy or recorded projects</pre>
+              <pre>❌  Limited exposure to real tools</pre>
+              <pre>❌  Copied or small assignments</pre>
+              <pre>❌  No real internship experience</pre>
+              <pre>❌  Teaching-only instructors</pre>
+              <pre>❌  Minimal job preparation support</pre>
             </div>
           </div>
         </div>
@@ -634,7 +723,7 @@
       <section>
         <div class="train">
           <div class="train-left">
-            <img src="computers.jpg" alt="" />
+            <img src="assets/images/industrial-training.png" alt=""/>
           </div>
           <div class="train-right">
             <h3>How does industrial training help to shape your future?</h3>
@@ -647,7 +736,7 @@
               interview skills, and receive personalized resume and LinkedIn
               guidance to become fully job-ready for top Web Development roles.
             </p>
-            <button class="hero-btn">Enroll Now</button>
+            <button class="banner-btn">Enroll Now</button>
           </div>
         </div>
 
@@ -658,30 +747,30 @@
               These are real students, real conversations, and real results. You
               don't just learn here — you work, grow, and get hired.
             </p>
-            <button class="hero-btn">Enroll Now</button>
+            <button class="banner-btn">Enroll Now</button>
           </div>
           <div class="train2-right">
             <div class="re-left">
               <div class="review-left">
-              <img src="computers.jpg" alt="" class="review-img">
+              <img src="assets/images/review.jpeg" alt="">
             </div>
             <div class="review-left">
-              <img src="computers.jpg" alt="" class="review-img">
+              <img src="assets/images/review.jpeg" alt="">
             </div>
             <div class="review-left">
-              <img src="computers.jpg" alt="" class="review-img">
+              <img src="assets/images/review.jpeg" alt="">
             </div>
             </div>
 
             <div class="re-right">
               <div class="review-left">
-              <img src="computers.jpg" alt="" class="review-img">
+              <img src="assets/images/review.jpeg" alt="">
             </div>
             <div class="review-left">
-              <img src="computers.jpg" alt="" class="review-img">
+              <img src="assets/images/review.jpeg" alt="">
             </div>
             <div class="review-left">
-              <img src="computers.jpg" alt="" class="review-img">
+              <img src="assets/images/review.jpeg" alt="">
             </div>
             </div>
           </div>
@@ -697,23 +786,23 @@
     <!-- Main-->
           <div class="faq-container">
         <!-- Left Tabs -->
-        <div class="faq-tabs">
-            <button>Joining Process</button>
-            <button>Joining Process</button>
-            <button>Joining Process</button>
-            <button>Joining Process</button>
-            <button>Joining Process</button>
-        </div>
+            <div class="faq-tabs">
+              <button>Joining Process</button>
+              <button>6 months curriculum</button>
+              <button>mock interviews</button>
+              <button>envirnment and rules</button>
+              <button>internship and certificates</button>
+            </div>
         <!-- Right Content -->
-        <div class="faq-content">
-            <h3>Joining Process</h3>
-            <div class="faq-item">How do I enroll in the program?</div>
-            <div class="faq-item">How do I enroll in the program?</div>
-            <div class="faq-item">How do I enroll in the program?</div>
-            <div class="faq-item">How do I enroll in the program?</div>
-            <div class="faq-item">How do I enroll in the program?</div>
-        </div>
-        </div>
+            <div class="faq-content">
+              <h3>Joining Process</h3>
+              <div class="faq-item">How do I enroll in the program?</div>
+              <div class="faq-item">Is there any entrance test?</div>
+              <div class="faq-item">Can beginners apply?</div>
+              <div class="faq-item">Do working professionals join?</div>
+              <div class="faq-item">Is EMI or installment available?</div>
+            </div>
+          </div>
         </div>
         
       </section>
@@ -721,21 +810,26 @@
     <!---------------------- FOOTER --------------------->
     <footer>
       <div class="footer">
-        <div class="footer-one">
-          <h1 style="color: rgb(3, 159, 231);">CUTEDGE</h1>
+        <div class="footer-footer">
+          <div class="footer-one">
+          <div class="logo">
+            <img src="assets/images/cut-edge logo.png" alt="">
+          </div>
           <p>As a top web development company in Gurugram and app development company in Delhi NCR, we specialize in providing cutting-edge technology solutions to organizations worldwide.</p>
         </div>
         <div class="footer-two">
           <h3>Service</h3>
           <p>website development</p>
-          <p>website development</p>
-          <p>website development</p>
+          <p>Application</p>
+          <p>Development</p>
+          <p>Digital Marketing</p>
         </div>
         <div class="footer-three">
           <h3>contact</h3>
           <p>3rd floor & Basement, Bimla Tower, DLF Colony, Sector 14, Gurugram, Haryana 122007</p>
           <p>info@cutedgetechnology.com</p>
           <p>+91 7988315190</p>
+        </div>
         </div>
       </div>
     </footer>

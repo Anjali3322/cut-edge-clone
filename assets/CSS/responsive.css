@@ -1,0 +1,494 @@
+/* NAVBAR RESPONSIVE */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    .navbar {
+    width: 95%;
+    padding: 0 20px;
+    }
+    .nav a{
+        display: none;
+    }
+} 
+
+/* @media (max-width: 480px){} */
+
+/* BANNER RESPONSIVE*/
+@media (max-width: 1024px) {
+    .banner-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    /* .left-border {
+        display: none;
+    } */
+    .banner-video {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .rate-box {
+        margin: 30px auto;
+        border-radius: 24px;
+    }
+    .banner-content p {
+        text-align: center;
+    } 
+}
+
+@media (max-width: 480px) {
+    .banner-content h1 {
+        font-size: 28px;
+    }
+    .banner-content p {
+        line-height: 1.3;
+    }
+    .banner-btn {
+        padding: 10px 24px;
+    }
+    .banner-video iframe {
+        max-width: 230px;
+    }
+    .banner-content p {
+        line-height: 1.3;
+    }
+}
+
+/* ---------- SLIDER CARD-RESPONSIVE ---------------- */
+@media (max-width: 1024px) {
+  .expertise-section {
+    padding: 60px 4%;
+  }
+  .expert-card {
+    min-width: 35%;
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-track {
+    gap: 16px;
+  }
+  .expert-card {
+    min-width: 40%;
+    max-width: 40%;
+    padding: 13px;
+  }
+  .expert-card h3 {
+    font-size: 18px;
+  }
+  .card-slide {
+    font-size: 13px;
+  }
+}
+@media (max-width: 480px) {
+.expert-card {
+    min-width: 86%;
+    max-width: 86%;
+     padding: 16px;
+     height: 79vh;
+  }
+}
+
+/* GRID RESPONSIVE */
+
+@media (max-width: 768px) {
+    .grid-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .grid{
+        padding: 10px;
+    }
+    .grid h4 {
+        font-size: 24px;
+    }
+    .grid-one, .grid-two {
+        width: 70%;
+    }
+    .grid-one {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .first-one, .second-one, .first, .second, .third {
+        height: 220px;
+    }
+    .second {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec-first, .sec-second {
+        width: 90%;
+        height: 210px;
+    }
+}
+
+/* REAL INDUSTRIES RESPONSIVE */
+
+@media (max-width: 1024px) {
+    .training-wrapper {
+        flex-direction: column;
+    }
+    .training-left {
+        justify-content: center;
+    }
+    .step-card {
+        width: 310px;
+        height: 72px;
+   }
+    .training-teaching{
+        flex-direction: column;
+    }
+    .training-right{
+        width: 80%;
+        padding: 20px;
+    }
+     .st-card {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;         
+    gap: 25px;
+    }
+    .student-card {
+    padding: 23px;
+    width: 30%;
+   }
+.student-card h3{
+    margin-top: 4px;
+}
+}
+
+@media (max-width: 480px) {
+
+    .training-section h2 {
+        font-size: 26px;
+    }
+    .training-left {
+        align-items: center;
+    }
+    .training-right {
+        width: 100%;
+    }
+    .step-card {
+        width: 125px;
+        height: 65px;
+   }
+   .student-card {
+    padding: 23px;
+    width: 70%;
+   }
+    .st-card {
+        margin-top: 30px;
+    flex-direction: column; 
+    align-items: center;
+    }
+}
+
+
+/* ------------------- ACROSS EVERY PROGRAM RESPONSIVE */
+@media (max-width:1024px){
+    .program{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftt-div{
+        padding: 30px;
+        width: 95%;
+        margin-bottom: 20px
+    }
+    .right-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .week{
+        width: 250%;
+        padding: 20px;
+
+    }
+}
+@media (max-width:480px){
+    .week{
+        max-width: 250%;
+        padding: 20px;
+    }
+    .leftt-div{
+        width: 100%;
+    }
+    .include2{
+        display: none;
+    }
+    .main-heading1 h2{
+        font-size: 26px;
+    }
+}
+
+
+ /* NEW YEAR OFFER RESPONSIVE */
+
+ @media (max-width: 1024px) {
+    .offer-container {
+        display: flex;
+        flex-direction: column;
+        padding: 34px;
+        /* align-items: left; */
+        text-align: center;
+    }
+    .offer-left {
+        max-width: 95%;
+    }
+    .offer-left p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .offer-left h2 {
+        font-size: 27px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .offer-container{
+        flex-direction: column;
+    }
+    .offer-left h2 {
+        font-size: 25px;
+    }
+    .outline-btn {
+        width: 100%;
+    }
+    .offer-left p{
+        line-height: 1.9;
+        font-size: 16px;
+    }
+    .btn{
+        align-items: center;
+        padding: 10px 18px;
+    }
+    .offer-right{
+        width: 82%;
+    }
+}
+
+
+/* Why Are We Different From Others RESPONSIVE */
+ @media (max-width: 1024px){
+.conver-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    /* gap: none; */
+    }
+    .conver p{
+        text-align: center;
+    }
+    .expp{
+        font-size: 16px;
+    }
+    .conver{
+        width: 90%;
+    }
+    .exp{
+        width: 100%;
+    }
+    .culture-img {
+        width: 71%;
+        margin: auto;
+    }
+    .culture-cards {
+        justify-content: center;
+        align-items: center;
+    }
+ }
+@media (max-width: 480px){
+    .culture-img img {
+        width: 285px;
+        height: 245px;
+        border-radius: 14px;
+        object-fit: cover;
+    }
+    .conver{
+        padding: 11px;
+    }
+    .culture-left{
+        margin-right: 10px;
+    }
+    .conver-main{
+        width: 98%;
+    }
+    .expp{
+        font-size: 13px;
+    }
+    .culture-img {
+        width: 98%;
+        margin: auto;
+    }
+    .conver p {
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    .different h2{
+        font-size: 28px;
+    }
+}
+
+
+
+/* CUT EDGE ENGINEERS RESPONSIVE */
+ @media (max-width: 1024px) {
+.institutes{
+    flex-direction: column;
+    align-items: center;
+}
+.ins-left, .ins-right{
+    width: 96%;
+    border-radius: 10px;
+    padding: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ins-left, .ins-right{
+    width: 116%;
+    border-radius: 10px;
+    padding: 15px;    
+    }
+    .edge h2{
+        font-size: 24px;
+    }
+}
+
+/* INDUSTRIAL TRAINING RESPONSIVE */
+@media (max-width: 1024px) {
+    .train{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .train-right{
+    padding: 55px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .train-right p{
+        text-align: center;
+    }
+    .train-right h3{
+        text-align: center;
+    }
+.train2{
+    padding: 0px 50px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.train2 h2{
+    text-align: left;
+}
+.train-left{
+    width: 90%;
+}
+.train2 .banner-btn{
+    width: fit-content;
+}
+}
+
+@media (max-width: 480px){
+    .train-right{
+    padding: 30px;
+    width: 315px;
+    }
+    .train-left img{
+    height: 300px;
+    width: 300px;
+}
+.re-left, .re-right{
+    width: 50%;
+}
+.train-left{
+    width: 320px;
+}
+.train2-right{
+    display: flex;
+    width: 100%;
+}
+.review-left, .review-right{
+    width: 95%;
+}
+.train2-right img{
+    width: 98%;
+}
+ 
+.train2{
+    padding: 11px 26px ;
+}
+.train2 h2{
+    font-size: 22px;
+}
+.train2 p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+}
+
+/* FAQ RESPONSIVE */
+@media (max-width: 1024px){
+    .faq-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq-content{
+        width: 95%;
+    }
+}
+@media (max-width: 480px){
+    
+}
+
+/* FOOTER RESPONSIVE */
+@media (max-width: 1024px) {
+    .footer-footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-footer .footer-one{
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-footer .footer-one{
+        width: 88%;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer-footer .logo img{
+        height: 30px;
+    }
+    .footer-footer .footer-two{
+        width: 88%;
+    }
+    .footer-footer .footer-three{
+        width: 88%;
+    }
+}
