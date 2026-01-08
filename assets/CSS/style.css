@@ -18,6 +18,111 @@ h3{
     font-size: 25px;
 }
 /* Banner button */
+/* Navbar Main Container */
+.navbar {
+    width: 95%;
+    margin: 20px;
+    height: 70px;
+    background-color: #0b0f1f;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+/* Logo */
+.logo img {
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Navigation Links */
+.nav {
+    display: flex;
+    gap: 35px;
+}
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+} 
+.nav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    display: block;
+}
+.nav a:hover {
+    color: #4aa3ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+/*                      BANNER                  */
+
+.banner-section {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 6%;
+}
+
+/* left div */
+.banner-content {
+    width: 55%;
+    position: relative;
+}
+
+.left-border {
+    position: absolute;
+    left: -25px;
+    top: 20px;
+    height: 320px;
+    width: 3px;
+    background-color: rgb(27, 148, 27);
+}
+
+.banner-content h1 {
+    font-size: 42px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+.banner-content h1 span {
+    color: #2ea7ff;
+}
+
+.curve-line {
+    width: 320px;
+    height: 2px;
+    background-color: #2ea7ff;
+    border-radius: 40px;
+    margin: 15px 0;
+}
+.banner-content p {
+    font-size: 16px;
+    max-width: 520px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
 .banner-btn {
     padding: 12px 30px;
     border-radius: 30px;
@@ -149,6 +254,7 @@ h3{
 
 
 /* ---------------------------SLIDER CARDS -------------------------- */
+/*                             CARDS                         */
 .expertise-section {
     padding: 60px 5%;
 }

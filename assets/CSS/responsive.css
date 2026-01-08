@@ -11,14 +11,18 @@
         display: none;
     }
 } 
-
 /* @media (max-width: 480px){} */
+@media (max-width: 480px){}
 
 /* BANNER RESPONSIVE*/
 @media (max-width: 1024px) {
     .banner-section {
         flex-direction: column;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 5%;
     }
     .banner-content {
         width: 100%;
@@ -39,6 +43,20 @@
     .banner-content p {
         text-align: center;
     } 
+    .left-border {
+        display: none;
+    }
+    .curve-line {
+        display: none;
+    }
+    .banner-image {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .rate-box {
+        margin: 30px auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -93,7 +111,34 @@
      padding: 16px;
      height: 79vh;
   }
+
+    .banner-btn {
+        padding: 10px 24px;
+    }
+    .banner-image img {
+        max-width: 230px;
+    }
+    .curve-line {
+        display: none;
+    }
 }
+
+/* CARD-RESPONSIVE */
+@media (max-width: 1024px) {
+    .slide {
+        animation-duration: 25s;
+    }
+}
+
+@media (max-width: 768px) {
+    .expertise-section h2 {
+        font-size: 28px;
+    }
+    .expert-card {
+        min-width: 240px;
+    }
+}
+
 
 /* GRID RESPONSIVE */
 
@@ -187,13 +232,34 @@
    }
     .st-card {
         margin-top: 30px;
-    flex-direction: column; 
-    align-items: center;
+        flex-direction: column; 
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .step-card {
+        width: 220px;
+    }
+    .training-right {
+        width: 100%;
     }
 }
 
 
+
+/*               ACTED AND TRANSFORMED  RESPONSIVE                     */
+
+@media (max-width: 1024px) {
+    .st-card {
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 25px;
+    }
+}
+
 /* ------------------- ACROSS EVERY PROGRAM RESPONSIVE */
+
+/* ACROSS EVERY PROGRAM RESPONSIVE */
 @media (max-width:1024px){
     .program{
         flex-direction: column;
@@ -230,6 +296,14 @@
     }
     .main-heading1 h2{
         font-size: 26px;
+        text-align: center;
+        margin-bottom: 20px
+    }
+}
+@media (max-width:480px){
+    .week{
+        max-width: 270px;
+        padding: 10px;
     }
 }
 
@@ -241,7 +315,6 @@
         display: flex;
         flex-direction: column;
         padding: 34px;
-        /* align-items: left; */
         text-align: center;
     }
     .offer-left {
@@ -254,6 +327,13 @@
     .offer-left h2 {
         font-size: 27px;
         text-align: center;
+        padding: 30px;
+    }
+    .offer-left {
+        max-width: 70%;
+    }
+    .offer-left h2 {
+        font-size: 28px;
     }
 }
 
@@ -313,6 +393,7 @@
         align-items: center;
     }
  }
+
 @media (max-width: 480px){
     .culture-img img {
         width: 285px;
@@ -342,8 +423,11 @@
     }
     .different h2{
         font-size: 28px;
-    }
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
 }
+ }
 
 
 
@@ -357,6 +441,9 @@
     width: 96%;
     border-radius: 10px;
     padding: 24px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px;
     }
 }
 
@@ -368,6 +455,9 @@
     }
     .edge h2{
         font-size: 24px;
+        max-width: 270px;
+        border-radius: 10px;
+        padding: 15px;    
     }
 }
 
@@ -408,6 +498,14 @@
 }
 .train2 .banner-btn{
     width: fit-content;
+    padding: 40px;
+    }
+    .train2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 80px ;
 }
 }
 
@@ -422,6 +520,13 @@
 }
 .re-left, .re-right{
     width: 50%;
+    padding: 40px;
+    width: 300px;
+    }
+    .train-left img{
+    border-radius: 140px;
+    height: 300px;
+    width: 200px;
 }
 .train-left{
     width: 320px;
@@ -446,11 +551,16 @@
 .train2 p{
     font-size: 16px;
     line-height: 1.5;
+    flex-wrap: wrap;
+}
+.train2{
+    padding: 15px 40px ;
 }
 }
 
 /* FAQ RESPONSIVE */
-@media (max-width: 1024px){
+/* @media (max-width: 1024px) */
+@media (max-width: 480px){
     .faq-container{
         flex-direction: column;
         justify-content: center;
@@ -460,9 +570,7 @@
         width: 95%;
     }
 }
-@media (max-width: 480px){
-    
-}
+
 
 /* FOOTER RESPONSIVE */
 @media (max-width: 1024px) {
@@ -490,5 +598,9 @@
     }
     .footer-footer .footer-three{
         width: 88%;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 10px;
     }
 }
