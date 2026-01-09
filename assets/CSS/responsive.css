@@ -11,10 +11,50 @@
         display: none;
     }
 } 
-/* @media (max-width: 480px){} */
 @media (max-width: 480px){}
 
 /* BANNER RESPONSIVE*/
+@media (min-width: 1024px) {
+
+  /* 🔹 VIDEO WRAPPER */
+  .banner-video {
+    position: relative;
+  }
+
+  /* 🔹 IMAGE OVERLAY */
+  .video-overlay {
+    position: absolute;
+    inset: 0;
+    background: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  /* 🔹 THUMBNAIL IMAGE */
+  .video-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* 🔹 PLAY BUTTON */
+  .play-btn {
+    position: absolute;
+    font-size: 60px;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1024px) {
     .banner-section {
         flex-direction: column;
@@ -22,7 +62,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 60px 5%;
+        padding: 45px 5%;
     }
     .banner-content {
         width: 100%;
@@ -37,22 +77,15 @@
         display: flex;
     }
     .rate-box {
-        margin: 30px auto;
+        margin: 25px auto;
         border-radius: 24px;
     }
     .banner-content p {
         text-align: center;
+        margin: auto;
     } 
     .left-border {
         display: none;
-    }
-    .curve-line {
-        display: none;
-    }
-    .banner-image {
-        width: 100%;
-        justify-content: center;
-        margin-top: 40px;
     }
     .rate-box {
         margin: 30px auto;
@@ -71,9 +104,9 @@
     }
     .banner-video iframe {
         max-width: 230px;
-    }
-    .banner-content p {
-        line-height: 1.3;
+    }    
+    .curve-line {
+        display: none;
     }
 }
 
@@ -223,7 +256,7 @@
         width: 100%;
     }
     .step-card {
-        width: 125px;
+        width: 130px;
         height: 65px;
    }
    .student-card {
@@ -236,9 +269,6 @@
         align-items: center;
         flex-direction: column;
         align-items: center;
-    }
-    .step-card {
-        width: 220px;
     }
     .training-right {
         width: 100%;
@@ -327,13 +357,6 @@
     .offer-left h2 {
         font-size: 27px;
         text-align: center;
-        padding: 30px;
-    }
-    .offer-left {
-        max-width: 70%;
-    }
-    .offer-left h2 {
-        font-size: 28px;
     }
 }
 
@@ -439,19 +462,13 @@
 }
 .ins-left, .ins-right{
     width: 96%;
-    border-radius: 10px;
     padding: 24px;
-    width: 400px;
-    border-radius: 10px;
-    padding: 15px;
     }
 }
 
 @media (max-width: 480px) {
     .ins-left, .ins-right{
-    width: 116%;
-    border-radius: 10px;
-    padding: 15px;    
+    width: 118%; 
     }
     .edge h2{
         font-size: 24px;
@@ -483,7 +500,7 @@
         text-align: center;
     }
 .train2{
-    padding: 0px 50px;
+    padding: 0px 32px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -498,15 +515,8 @@
 }
 .train2 .banner-btn{
     width: fit-content;
-    padding: 40px;
+    margin-bottom: 20px;
     }
-    .train2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 80px ;
-}
 }
 
 @media (max-width: 480px){
@@ -518,19 +528,6 @@
     height: 300px;
     width: 300px;
 }
-.re-left, .re-right{
-    width: 50%;
-    padding: 40px;
-    width: 300px;
-    }
-    .train-left img{
-    border-radius: 140px;
-    height: 300px;
-    width: 200px;
-}
-.train-left{
-    width: 320px;
-}
 .train2-right{
     display: flex;
     width: 100%;
@@ -541,10 +538,6 @@
 .train2-right img{
     width: 98%;
 }
- 
-.train2{
-    padding: 11px 26px ;
-}
 .train2 h2{
     font-size: 22px;
 }
@@ -553,14 +546,11 @@
     line-height: 1.5;
     flex-wrap: wrap;
 }
-.train2{
-    padding: 15px 40px ;
-}
 }
 
 /* FAQ RESPONSIVE */
 /* @media (max-width: 1024px) */
-@media (max-width: 480px){
+@media (max-width: 1024px) {
     .faq-container{
         flex-direction: column;
         justify-content: center;
@@ -569,6 +559,10 @@
     .faq-content{
         width: 95%;
     }
+}
+@media (max-width: 480px){
+    
+    
 }
 
 
